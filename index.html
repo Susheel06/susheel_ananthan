@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+ "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>Personal WebSite</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+  <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+  <script>
+    var music = new Audio();
+    music.src = "horse.mp3";
+  </script>
+</head>
+
+<body class="full-landing-image">
+  <div class="loader-container">
+    <div class="loader"></div>
+  </div>
+
+  <header>
+    <div class="inner-width">
+      <a onmousedown="music.play()" class="logo"><img src="logo.png" alt=""></a>
+      <i class="menu-toggle-btn fas fa-bars"></i>
+      <nav class="navigation-menu">
+        <a href="index.html"><i class="fas fa-home home"></i>Home</a>
+        <a href="projects.html"><i class="fas fa-align-left about"></i>Internships/Projects</a>
+        <a href="contacts.html"><i class="fas fa-headset contact"></i>Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="box">
+    <img src="k.jpg" alt="" class="box-img">
+    <h1>
+        SUSHEEL SRIRAM ANANTHAN
+    </h1>
+    <h5>
+      Data Engineer - DL Enthusiast</h5>
+    <div class="css-typing">
+      <p>I am a geeky pre-final year Undergrad student pursuing B.Tech in Instrumentation and Control from so called </p>
+      <p>'Prestigious' institute National Institute of Technology, Tiruchirappalli, India. I am a deadly DL and Q learning</p>
+      <p>enthusiast(trying to be expert) currently working on multiple projects in the domain of AI. Other than 'Tech',</p>
+      <p>people say I am a good badminton player.</p>
+    </div>
+    <ul>
+      <li><a href="https://www.facebook.com/susheel.ananthan"><i class="fa fa-facebook-square"
+            aria-hidden="true"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/susheel-sriram-ananthan-15a573158/"><i class="fa fa-linkedin-square"
+            aria-hidden="true"></i></a></li>
+      <li><a href="https://github.com/Susheel06"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+    </ul>
+  </div>
+
+  <script>
+    $(window).on("load", function () {
+      $(".loader-container").fadeOut(1000);
+    });
+  </script>
+
+  <script type="text/javascript">
+    $(".menu-toggle-btn").click(function () {
+      $(this).toggleClass("fa-times");
+      $(".navigation-menu").toggleClass("active");
+    });
+  </script>
+
+  <script>
+    $(".full-landing-image").ripples({
+      resolution: 256,
+      perturbance: 0.04,
+    });
+  </script>
+
+<div id="webchat"/>
+<script src="https://storage.googleapis.com/mrbot-cdn/webchat-latest.js"></script>
+
+<script>
+  WebChat.default.init({
+    selector: "#webchat",
+    initPayload: "/get_started",
+    customData: {"language": "en"}, // arbitrary custom data. Stay minimal as this will be added to the socket
+    socketUrl: "http://localhost:5005",
+    socketPath: "/socket.io/",
+    title: "Restaurant Finder",
+    subtitle: "RASA NLU",
+  })
+</script>
+
+<footer class="footer1">
+  <p>Made with ❤️️ by Susheel </p>
+</footer>
+
+</body>
+
+</html>

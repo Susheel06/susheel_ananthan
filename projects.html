@@ -1,0 +1,464 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>Personal WebSite</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+  <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+  <script>
+    $(window).on("load", function () {
+      $(".loader-container").fadeOut(1000);
+    });
+  </script>
+  <script>
+    var music = new Audio();
+    music.src = "horse.mp3";
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body class="full-landing-image-1">
+  <div class="loader-container">
+    <div class="loader"></div>
+  </div>
+
+  <header class="projects">
+    <div class="inner-width">
+      <a onmousedown="music.play()" class="logo"><img src="logo.png" alt=""></a>
+      <i class="menu-toggle-btn fas fa-bars"></i>
+      <nav class="navigation-menu">
+        <a href="index.html"><i class="fas fa-home home"></i> Home</a>
+        <a href="projects.html"><i class="fas fa-align-left about"></i> Internships/Projects</a>
+        <a href="contacts.html"><i class="fas fa-headset contact"></i> Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- <div class="bla">
+        <h1>
+            Experience and Project Works
+        </h1>
+        <h5>Internship at Titan Engineering and Automation Limited - December, 2019</h5>
+        <p>
+            <li>The internship involved comprehending the procedures involved in Turnkey assembly.</li>
+            <li>Types of sensors used in industries and their selection procedure, communication protocols used to
+                interface PLC and the field devices, Remote Terminal Units(I-O Links), Data acquisition from PLC
+                using cloud platform, servo motor control, fault inspection using camera through image processing,
+                Risk assessment and Risk Reduction Process as per ISO 12100 Standard.</li>
+            <li>Worked on E-Plan to form control panel wiring diagrams based on the electrical design provided.</li>
+            <li>Observed the working culture carefully and assisted employees on their whenever requested.</li>
+        </p>
+
+        <h5>In-Plant Training at CSIR- Central Scientific Instruments Organisation, Chennai - December, 2019</h5>
+        <p>
+            <li>The training involved comprehending the ongoing research projects at CSIR-CSIO madras complex.</li>
+            <li>Circuit simulations and Printed Circuit Board designing using Proteus Tool and hands-on soldering
+                sessions on
+                through-hole and SMT PCB.</li>
+            <li>Discussions and presentations on basics of Electronic components, Nanotechnology and its applications,
+                Energy
+                Management systems (EMS), Building Automation, Real time motor efficiency monitoring device, pump
+                efficiency
+                monitoring, motor stethoscope and Calibration.</li>
+        </p>
+
+        <h5>Automation System Engineer Training - June-July, 2019</h5>
+        <p>
+            <li>Underwent 180 hours ASE training under IPCS Global, Chennai in the field of Industrial Automation.</li>
+            <li>Seven major sessions in which hands-on training imparted were Programmable Logic Controllers (PLC),
+                Supervisory Control and Data Acquisition (SCADA), Distributed Control System architecture (DCS), Human
+                Machine
+                Interface (HMI), Control panel wiring, Electrical drives and controls (VFD), Field Instrumentation and
+                Pneumatics.</li>
+        </p>
+
+
+
+        <h5>Digital Marketing Intern at Insino Ventures Pvt. Ltd - May-June, 2019</h5>
+        <p>
+            <li>Worked as a Digital Marketing intern to achieve maximum sale on Rhulz.com.</li>
+            <li>Tasked with creating and launching daily eblasts and calls-to-action for high-velocity email campaigns.
+            </li>
+            <li>Put-up posts on social media platforms including Facebook, Twitter, and WhatsApp to improve publicity.
+            </li>
+            <li>Designed posters and increased Facebook marketplace audience by encouraging repeated engagement.</li>
+        </p>
+
+        <h5>Data Science Intern at Taken Mind - May, 2019</h5>
+        <p>
+            <li>The internship involved training on Python Programming, basic concepts of Data Analytics using pandas
+                and Data Visualization using heat maps, boxplot Violin plot, Cluster Map, Kernel Density Estimation
+                (KDE) plot, Statistics and Econometrics.</li>
+            <li>Applied these concepts to pre-process and visualize a business case data set using Numpy, Pandas,
+                Matplotlib, Seaborn libraries.</li>
+        </p>
+
+        <h5>In-Plant Training at Tamil Nadu Newsprint and Papers Limited, December, 2018</h5>
+        <p>
+            <li>The training involved comprehending various stages involved in processing wood chips or bagasse to form
+                pulp, production of paper of required GSM from pulp using Paper Machines, production of White Liquor,
+                visit to thermal power plant with a total production capacity of 80MW.</li>
+        </p>
+
+        <h5>In-Plant Training at Ashok Leyland Limited - December, 2018</h5>
+        <p>
+            <li>The training involved comprehending frame and chassis assembly of LCV, MDV and HGP vehicles,
+                construction of Side Member Frame for medium and heavy-duty vehicles, front and rear axle
+                assembly of medium and heavy-duty vehicles.</li>
+        </p>
+
+        <h5>Summer Internship at AIESEC Egypt - June, 2018</h5>
+        <p>
+            <li>Worked as a Global Volunteer at AIESEC Cairo to promote tourism in Egypt.</li>
+            <li>Exploring and engaging the Cities’ Cultures, interacting with culture diversity through dealing
+                with Egyptian youth and other interns.</li>
+            <li>Writing blogs about the history, traditions, food, clothing’s etc. Delivering a presentation
+                about my country to help the participants get exposed to new cultures.</li>
+        </p>
+
+        <h5>2 DOF Robotic Arm - September, 2017</h5>
+        <p>
+            <li>Worked with Robotics club of NIT Trichy to build a 2 DOF Robotic arm. The 2 DOF Robot module is
+                connected to two rotary Servo Base Units which control a 4-bar linkage system.</li>
+            <li>The goal of the 2 DOF Robot experiment is to manipulate the X-Y position of a four-bar linkage
+                end effector and trace the path of the given input co-ordinates accordingly.</li>
+        </p>
+
+        <h5>Piano Tile Robot - March, 2019</h5>
+        <p>
+            <li>The project ‘Piano Tile Robot’ is an approach to play the android game “Piano Tiles”
+                autonomously using Arduino Uno.</li>
+            <li>The circuit is built using LDR, to differentiate between black and white tiles, then processing
+                the input signal from LDR using Arduino controller and actuating the touch on the smart phone
+                using relay circuit by creating a voltage drop on the point of smartphone, if the black tile is
+                detected, using aluminum foil.</li>
+        </p>
+    </div> -->
+
+
+  <div class="container">
+    <nav class="navbar">
+      <ul>
+        <!-- <li><a href="index.html"></a>Home</li> -->
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#interns">Internship/In-Plant Training</a></li>
+        <li><a href="#skills">Skills</a></li>
+      </ul>
+    </nav>
+
+    <section id="projects">
+      <h1>Projects</h1>
+      <h5>RASA based NLU Chat bot - April, 2020</h5>
+      <p>
+        <ul>
+          <li>Built a restaurant chatbot using RASA (NLU framework) where based on user intent, the bot
+            returns top 5 rated restaurant list based on the cuisine and location chosen by the user.
+          </li>
+          <li>Trained our model to extract cuisine, location intent from the user statement. Used Bing map API
+            to
+            extract location id. Further with location id and cuisine, using Zomato
+            API we returned top 5 restaurants.
+          </li>
+        </ul>
+      </p>
+
+      <h5>Smart Irrigation - April, 2020</h5>
+      <p>
+        <ul>
+          <li>This project incorporates cloud based smart irrigation where the
+            micro-controller actuates desired control action on the water pump based on data transmitted from the field
+            transmitters and weather API.
+          </li>
+          <li>The flow of information between the micro-controller and the cloud is supported by stable network
+            services such as LoRaWAN or Sigfox. Parallelly data from weather API is taken to know possibility
+            of rain to avoid irrigation on that day.
+          </li>
+          <li>The project also incorporates Human Machine Interface(HMI) to monitor data such as moisture content in
+            soil, level/volume of water present in reservoir and other related
+            parameters, to pre-set threshold value of desired parameters to be maintained, also an option of automatic
+            mode and manual mode of operation.
+          </li>
+        </ul>
+      </p>
+
+      <h5>2 DOF Robotic Arm - September, 2017</h5>
+      <p>
+        <ul>
+          <li>Worked with Robotics club of NIT Trichy to build a 2 DOF Robotic arm. The 2 DOF Robot module is
+            connected to two rotary Servo Base Units which control a 4-bar linkage system.</li>
+          <li>The goal of the 2 DOF Robot experiment is to manipulate the X-Y position of a four-bar linkage
+            end effector and trace the path of the given input co-ordinates accordingly.</li>
+        </ul>
+      </p>
+
+      <h5>Piano Tile Robot - March, 2019</h5>
+      <p>
+        </ul>
+        <li>The project ‘Piano Tile Robot’ is an approach to play the android game “Piano Tiles”
+          autonomously using Arduino Uno.</li>
+        <li>The circuit is built using LDR, to differentiate between black and white tiles, then processing
+          the input signal from LDR using Arduino controller and actuating the touch on the smart phone
+          using relay circuit by creating a voltage drop on the point of smartphone, if the black tile is
+          detected, using aluminum foil.</li>
+        </ul>
+      </p>
+    </section>
+
+
+
+    <section id="interns">
+      <h1>Internships/ In-Plant Training</h1>
+      <h5>Internship at Titan Engineering and Automation Limited - December, 2019</h5>
+      <p>
+        <li>The internship involved comprehending the procedures involved in Turnkey assembly.</li>
+        <li>Types of sensors used in industries and their selection procedure, communication protocols used to
+          interface PLC and the field devices, Remote Terminal Units(I-O Links), Data acquisition from PLC
+          using cloud platform, servo motor control, fault inspection using camera through image processing,
+          Risk assessment and Risk Reduction Process as per ISO 12100 Standard.</li>
+        <li>Worked on E-Plan to form control panel wiring diagrams based on the electrical design provided.</li>
+        <li>Observed the working culture carefully and assisted employees on their whenever requested.</li>
+      </p>
+
+      <h5>In-Plant Training at CSIR- Central Scientific Instruments Organisation, Chennai - December, 2019</h5>
+      <p>
+        <li>The training involved comprehending the ongoing research projects at CSIR-CSIO madras complex.</li>
+        <li>Circuit simulations and Printed Circuit Board designing using Proteus Tool and hands-on soldering
+          sessions on
+          through-hole and SMT PCB.</li>
+        <li>Discussions and presentations on basics of Electronic components, Nanotechnology and its
+          applications,
+          Energy
+          Management systems (EMS), Building Automation, Real time motor efficiency monitoring device, pump
+          efficiency
+          monitoring, motor stethoscope and Calibration.</li>
+      </p>
+
+      <h5>Automation System Engineer Training - June-July, 2019</h5>
+      <p>
+        <li>Underwent 180 hours ASE training under IPCS Global, Chennai in the field of Industrial Automation.
+        </li>
+        <li>Seven major sessions in which hands-on training imparted were Programmable Logic Controllers (PLC),
+          Supervisory Control and Data Acquisition (SCADA), Distributed Control System architecture (DCS),
+          Human
+          Machine
+          Interface (HMI), Control panel wiring, Electrical drives and controls (VFD), Field Instrumentation
+          and
+          Pneumatics.</li>
+      </p>
+      <h5>Digital Marketing Intern at Insino Ventures Pvt. Ltd - May-June, 2019</h5>
+      <p>
+        <li>Worked as a Digital Marketing intern to achieve maximum sale on Rhulz.com.</li>
+        <li>Tasked with creating and launching daily eblasts and calls-to-action for high-velocity email
+          campaigns.
+        </li>
+        <li>Put-up posts on social media platforms including Facebook, Twitter, and WhatsApp to improve
+          publicity.
+        </li>
+        <li>Designed posters and increased Facebook marketplace audience by encouraging repeated engagement.
+        </li>
+      </p>
+
+      <h5>Data Science Intern at Taken Mind - May, 2019</h5>
+      <p>
+        <li>The internship involved training on Python Programming, basic concepts of Data Analytics using
+          pandas
+          and Data Visualization using heat maps, boxplot Violin plot, Cluster Map, Kernel Density Estimation
+          (KDE) plot, Statistics and Econometrics.</li>
+        <li>Applied these concepts to pre-process and visualize a business case data set using Numpy, Pandas,
+          Matplotlib, Seaborn libraries.</li>
+      </p>
+
+      <h5>In-Plant Training at Tamil Nadu Newsprint and Papers Limited, December, 2018</h5>
+      <p>
+        <li>The training involved comprehending various stages involved in processing wood chips or bagasse to
+          form
+          pulp, production of paper of required GSM from pulp using Paper Machines, production of White
+          Liquor,
+          visit to thermal power plant with a total production capacity of 80MW.</li>
+      </p>
+
+      <h5>In-Plant Training at Ashok Leyland Limited - December, 2018</h5>
+      <p>
+        <li>The training involved comprehending frame and chassis assembly of LCV, MDV and HGP vehicles,
+          construction of Side Member Frame for medium and heavy-duty vehicles, front and rear axle
+          assembly of medium and heavy-duty vehicles.</li>
+      </p>
+
+      <h5>Summer Internship at AIESEC Egypt - June, 2018</h5>
+      <p>
+        <li>Worked as a Global Volunteer at AIESEC Cairo to promote tourism in Egypt.</li>
+        <li>Exploring and engaging the Cities’ Cultures, interacting with culture diversity through dealing
+          with Egyptian youth and other interns.</li>
+        <li>Writing blogs about the history, traditions, food, clothing’s etc. Delivering a presentation
+          about my country to help the participants get exposed to new cultures.</li>
+      </p>
+    </section>
+
+
+    <section id="skills">
+      <h1>Skills</h1>
+      <div class="skills">
+        <div class="skill">
+          <div class="skill-name">C</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="90"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">Python3</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="85"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">SQL</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="60"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">HTML</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="70"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">MATLAB</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="80"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">TABLEAU</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="90"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">CSS</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="60"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="skills-1">
+        <div class="skill">
+          <div class="skill-name">Leadership</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="100"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">Event Management</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="90"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">Team Work</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="85"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">Integrity</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="90"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">Respect</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="100"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">Reliability</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="100"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill-name">Creativity</div>
+          <div class="skill-bar">
+            <div class="skill-per" per="95"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="line-in-middle"></div>
+
+    </section>
+    <!-- <section id="contact">
+            <h1>Contact</h1>
+            <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, quis!</p>
+        </section> -->
+  </div>
+
+  <!-- <script>
+        $(".full-landing-image-1").ripples({
+            resolution: 256,
+            perturbance: 0.04,
+        });
+    </script> -->
+
+  <script>
+    $('.skill-per').each(function () {
+      var $this = $(this);
+      var per = $this.attr('per');
+      $this.css("width", per + '%');
+      $({ animatedValue: 0 }).animate({ animatedValue: per }, {
+        duration: 1000,
+        step: function () {
+          $this.attr('per', Math.floor(this.animatedValue) + '%');
+        },
+        complete: function () {
+          $this.attr('per', Math.floor(this.animatedValue) + '%');
+        }
+      });
+    });
+  </script>
+
+<div id="webchat"/>
+<script src="https://storage.googleapis.com/mrbot-cdn/webchat-latest.js"></script>
+<script>
+  WebChat.default.init({
+    selector: "#webchat",
+    initPayload: "/get_started",
+    customData: {"language": "en"}, // arbitrary custom data. Stay minimal as this will be added to the socket
+    socketUrl: "http://localhost:5005",
+    socketPath: "/socket.io/",
+    title: "Restaurant Finder",
+    subtitle: "RASA NLU",
+  })
+</script>
+
+  <footer class="footer2">
+    <p>Made with ❤️️ by Susheel </p>
+  </footer>
+
+</body>
+
+</html>
