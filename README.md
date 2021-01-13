@@ -1,9 +1,8 @@
-# susheel_sriram_ananthan
-Portfolio website
+#### Portfolio website - susheel_sriram_ananthan
 
 Check my out my website @ https://susheel06.github.io/susheel_sriram_ananthan/
 
-Built using:<br>
+###### Built using:<br>
 HMTL5<br>
 CSS3<br>
 JS
